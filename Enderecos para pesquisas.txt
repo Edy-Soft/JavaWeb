@@ -1,0 +1,23 @@
+
+
+1 - https://www.zkoss.org/wiki/Setup_MySQL_DB_in_Eclipse - Inserir o Dirver do Mysql 
+
+2 - http://stackoverflow.com/questions/6798281/unbound-class-path-container-error-in-eclipse - Erro do JRE
+
+3 - http://stackoverflow.com/questions/2638016/why-no-projects-found-to-import - Erro na importação de Projecto existente
+
+4 - http://tech.amikelive.com/node-269/eclipse-quick-tip-resolving-error-the-import-javaxservlet-cannot-be-resolved/
+
+5 - http://stackoverflow.com/questions/15380125/cannot-add-a-project-to-a-tomcat-server-in-eclipse
+
+6 - http://stackoverflow.com/questions/1911253/the-infamous-java-sql-sqlexception-no-suitable-driver-found
+
+7 - http://www.mkyong.com/eclipse/eclipse-simpletagsupport-was-not-found-on-the-java-build-path/
+
+8 - http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
+
+9 - http://rogerdudler.github.io/git-guide/index.pt_BR.html - Dicas sobre o Git
+
+10 - http://tableless.com.br/iniciando-no-git-parte-2/ - Dicas sobre o Git
+
+11 - http://www.java2s.com/Code/Jar/o/org.springframework.web.htm - Download de bibliotecas (ficherios .jar).
