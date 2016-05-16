@@ -9,12 +9,13 @@
 		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 		http://www.springframework.org/schema/context
 		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+		
+<context:component-scan base-package="ao.co.always.tarefas" />
+<mvc:annotation-driven />
 
-	<context:component-scan base-package="br.com.caelum.tarefas" />
-	<mvc:annotation-driven />
-	
-	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	<property name="prefix" value="/WEB-INF/views/"/>
 	<property name="suffix" value=".jsp"/>
-	</bean>
+</bean>
+
 </beans>
