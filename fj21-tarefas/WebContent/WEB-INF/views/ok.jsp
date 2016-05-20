@@ -1,5 +1,5 @@
 <html>
 	<body>
-		<h1>Minha primeira pagina com Spring MVC</h1>
+		<h2>Finalmente, pronto para usar o SpringFramework</h2>
 	</body>
 </html>

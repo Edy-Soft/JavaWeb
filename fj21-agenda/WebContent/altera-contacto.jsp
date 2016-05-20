@@ -7,6 +7,9 @@
 
 <html>
 	<head>
+	    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+		<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Alterar Contacto</title>
     </head>
@@ -23,8 +26,7 @@
 		Endereço<br>
 		<input name="endereco" type="text" value="${param.endereco}"><br>
 		Data Nascimento<br>
-			<input name="dataNascimento" type="text" value="${param.dataNascimento}">
-			<!--<alwyas:campoData id="dataNascimento"></alwyas:campoData> -->
+		<alwyas:campoData id="dataNascimento"></alwyas:campoData> > 	
 		<input name="logica" type="hidden" value="AlteraContactoLogica"><br>
 		<input type="submit" value="Alterar">
 		<input type="button" id="id_button" value="Cancelar" onclick="parent.location.href='Lista-Contactos-Elegante.jsp'">

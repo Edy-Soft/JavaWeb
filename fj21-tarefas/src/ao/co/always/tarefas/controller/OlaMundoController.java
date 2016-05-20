@@ -7,8 +7,7 @@ public class OlaMundoController {
 	
 	@RequestMapping("/olaSpring")
 	public String execute(){
-		System.out.println("Execunto logica com spring");
+		System.out.println("Finalmente o Spring está confifurado correctamente");
 		return "ok";
 	}
-
 }
