@@ -15,11 +15,13 @@
 
 	<context:component-scan base-package="ao.co.always.tarefas" />
 	<mvc:annotation-driven />
-
+	
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
+	<mvc:default-servlet-handler/>
 
 </beans>

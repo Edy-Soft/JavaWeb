@@ -1,10 +1,8 @@
 package ao.co.always.tarefas.dao;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 import ao.co.always.tarefas.ConnectionFactory;
 import ao.co.always.tarefas.modelo.Usuario;
 
@@ -22,7 +20,7 @@ public class JdbcUsuarioDao {
 	public boolean existeUsuario(Usuario usuario) {
 
 		if (usuario == null) {
-			throw new IllegalArgumentException("Usu√°rio n√£o deve ser nulo");
+			throw new IllegalArgumentException("Usu·rio n„o deve ser nulo");
 		}
 
 		try {

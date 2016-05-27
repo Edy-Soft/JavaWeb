@@ -42,7 +42,7 @@ public class TarefasController {
 		return "redirect:listaTarefas";
 	}
 	
-	// METODO PARA MOSTAR UM TAREFA NA JSP
+	// METODO PARA ENVIAR DADOS DE UMA TAREFA NA JSP VIA URL
 	@RequestMapping("mostraTarefa")
 	public String mostra(Long id, Model model){
 		JdbcTarefaDao dao = new JdbcTarefaDao();
@@ -56,5 +56,12 @@ public class TarefasController {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		dao.altera(tarefa);
 		return "redirect:listaTarefas";
+	}
+	@RequestMapping("finalizaTarefa")
+	public String finaliza(Long id, Model model){
+		JdbcTarefaDao dao = new JdbcTarefaDao();
+		dao.finaliza(id);
+		model.addAttribute("tarefa", dao.buscaPorId(id));
+		return "tarefa/finalizada";
 	}
 }
