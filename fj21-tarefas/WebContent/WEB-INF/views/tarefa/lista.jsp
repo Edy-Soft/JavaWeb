@@ -14,7 +14,9 @@
 			});
 		}
 	</script>
-
+	
+	<a href="logout">Sair do Sistema</a>
+	<br /> <br/>
 	<a href="novaTarefa">Criar nova tarefa</a> 
 	<br /> <br/>
 	
@@ -32,7 +34,7 @@
 					<!-- Finalizar uma terefa -->
 				<c:if test="${tarefa.finalizado eq false}">
 					<td>
-						<a href="#" onClick="finalizaAgora(${tarefa.id})">Finaliza Agora!</a>
+					<a href="#" onClick="finalizaAgora(${tarefa.id})">Finaliza Agora!</a>
 					</td>
 				</c:if>
 				<c:if test="${tarefa.finalizado eq true}">
@@ -48,6 +50,6 @@
 			</tr>
 		</c:forEach>		
 	</table>
-	
+	 
 </body>
 </html>

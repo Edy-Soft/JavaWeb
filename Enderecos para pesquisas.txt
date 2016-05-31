@@ -14,12 +14,22 @@
 
 7 - http://www.mkyong.com/eclipse/eclipse-simpletagsupport-was-not-found-on-the-java-build-path/
 
+8 - 
+
 8 - http://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
+
+9 - 
 
 9 - http://rogerdudler.github.io/git-guide/index.pt_BR.html - Dicas sobre o Git
 
+10 - 
+
 10 - http://tableless.com.br/iniciando-no-git-parte-2/ - Dicas sobre o Git
+
+11 - 
 
 11 - http://www.java2s.com/Code/Jar/o/org.springframework.web.htm - Download de bibliotecas (ficherios .jar).
 
+12 -
+ 
 12 - https://git-scm.com/docs - Comandos do git

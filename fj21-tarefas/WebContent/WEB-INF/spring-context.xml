@@ -22,6 +22,10 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
+	<mvc:interceptors>
+		<bean class = "ao.co.always.tarefas.interceptor.AutorizadorInterceptor" />
+	</mvc:interceptors>
+	
 	<mvc:default-servlet-handler/>
 
 </beans>
