@@ -1,5 +1,8 @@
 
 <html>
+	<head>
+		<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet" />
+	</head>
 	<body>
 	
 		<h2>Página para Login de usuário</h2>
