@@ -14,6 +14,8 @@ import ao.co.always.jdbc.dao.ContactoDAO;
 import ao.co.always.jdbc.modelo.Contacto;
 
 //@WebServlet(urlPatterns = "/adicionaContactos")
+
+@SuppressWarnings("serial")
 public class AdicionaContactoServlet extends HttpServlet {
 	
 	@Override

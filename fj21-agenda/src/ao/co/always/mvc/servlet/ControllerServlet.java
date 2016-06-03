@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import ao.co.always.mvc.logica.Logica;
 
+@SuppressWarnings("serial")
 public class ControllerServlet extends HttpServlet{
 	protected void service(HttpServletRequest request,
 			HttpServletResponse response) 
@@ -15,6 +16,7 @@ public class ControllerServlet extends HttpServlet{
 		String nomeDaClasse = "ao.co.always.mvc.logica." + parametro;
 		
 		try{
+			@SuppressWarnings("rawtypes")
 			Class classe = Class.forName(nomeDaClasse);
 			Logica logica = (Logica) classe.newInstance();
 			logica.executa(request, response);

@@ -10,6 +10,7 @@ import ao.co.always.tarefas.modelo.Tarefa;
 
 public class BuscarTarefas {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		
 		EntityManagerFactory factory = Persistence.

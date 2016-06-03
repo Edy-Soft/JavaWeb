@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import ao.co.always.jdbc.ConnectionFactory;
 
+@SuppressWarnings("serial")
 @WebServlet(urlPatterns = "/teste")
 public class TesteConexaoServer extends HttpServlet{
 	

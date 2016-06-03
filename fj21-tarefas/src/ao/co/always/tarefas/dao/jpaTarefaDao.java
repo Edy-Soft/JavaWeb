@@ -20,6 +20,7 @@ public class jpaTarefaDao implements TarefaDao{
 		manager.merge(tarefa);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public List<Tarefa> lista(){
 		return manager.createQuery("select t from Tarefa t").getResultList();
 	}
